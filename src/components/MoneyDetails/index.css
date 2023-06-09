@@ -1,0 +1,182 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+  background-size: cover;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 1px 1px 1px 1px #7e858e;
+}
+
+.header-container {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  text-align: left;
+  width: 70vw;
+}
+
+.header-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.header-description {
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+
+.blue-text {
+  color: #0b69ff;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.data-image {
+  height: 50px;
+  width: 50px;
+}
+
+.data-green {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecfccb;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #84cc16;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+
+.data-blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cffafe;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #06b6d4;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.data-purple {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ede9fe;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7c3aed;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.data-upper-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.data-rs {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 70vw;
+}
+
+.add-transaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 0px 0px 0.5px 0.5px;
+  height: 40vh;
+}
+
+.form-input {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.button-add {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 30%;
+  height: 30px;
+}
+
+.history-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0px 0px 0.5px 0.5px;
+  padding: 20px;
+  width: 50%;
+}
+
+.unordered-list {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0px 0px 0.5px 0.5px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.list-text {
+  margin-right: 20px;
+}
